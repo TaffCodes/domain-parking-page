@@ -78,30 +78,30 @@
       </div>
     </header>
     <style>
-.blinking-button {
-  background-color: yellow;
-  color: black;
-  padding: 24px 24px;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 5px;
-  font-weight: bold;
-  position: relative;
-  overflow: hidden;
-  border: none;
-  animation: border-blink 0.8s infinite;
-}
-
-@keyframes border-blink {
-  0% { box-shadow: 0 0 10px blue; }
-  50% { box-shadow: 0 0 15px red; }
-  100% { box-shadow: 0 0 10px blue; }
-}
-
-.blinking-button:hover {
-  background-color: #ffeb3b;
-  animation: border-blink 0.4s infinite;
-}
+      .blinking-button {
+        background-color: yellow;
+        color: black;
+        padding: 12px 24px;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 5px;
+        font-weight: bold;
+        position: relative;
+        overflow: hidden;
+        border: none;
+        animation: border-blink 0.8s infinite;
+        margin-bottom: 20px;
+      }
+      @keyframes border-blink {
+        0% { box-shadow: 0 0 10px blue; }
+        50% { box-shadow: 0 0 15px red; }
+        100% { box-shadow: 0 0 10px blue; }
+      }
+      
+      .blinking-button:hover {
+        background-color: #ffeb3b;
+        animation: border-blink 0.4s infinite;
+      }
 </style>
 
 <a href="https://drive.google.com/drive/folders/1u_31iYPIgBGTOINcQ2UW0SsHga29Ky_C?usp=drive_link" class="blinking-button">Not Complete!!! Check Soon</a>
